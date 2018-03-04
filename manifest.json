@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "BTC to THB by Totoland",
+  "short_name": "to thai baht",
+  "description": "exchange BTC to thai baht",
+  "version": "0.1",
+  "minimum_chrome_version": "38",
+  "permissions": [
+    "contextMenus", 
+    "tabs"],
+  "icons": {
+    "16": "assets/THB.png"
+  },
+  "background": {"page": "background.html"}
+}
